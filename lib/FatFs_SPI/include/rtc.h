@@ -13,11 +13,14 @@ specific language governing permissions and limitations under the License.
 */
 #pragma once
 
+#include "ff.h"
+
 #ifdef __cplusplus
 extern "C" {
 #endif
 
 // void time_init();
+DWORD get_fattime(void);
 
 #ifdef __cplusplus
 }
